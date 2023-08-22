@@ -66,7 +66,7 @@ axios.interceptors.response.use(res => {return res;},error => {
                         })
                         Notification.error(
                             {
-                                title: '不好意思，我不认识你这个MOTHERFUCKER',
+                                title: '不好意思，我不认识该账户',
                                 type: 'error',
                                 message: `请先登录！`,
                                 position: 'bottom-right',
